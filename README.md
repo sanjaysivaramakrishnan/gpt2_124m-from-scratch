@@ -136,6 +136,7 @@ Trained on a **single NVIDIA A100 GPU** for **~8.5 hours** on [Lightning.ai](htt
 
 ## 📚 References
 
+- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (Transformer Paper)
 - [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) (GPT-2 Paper)
 - [Andrej Karpathy's nanoGPT](https://github.com/karpathy/nanoGPT) — inspiration for this implementation
 - [HellaSwag: Can a Machine Really Finish Your Sentence?](https://arxiv.org/abs/1905.07830)
