@@ -70,7 +70,7 @@ Input Tokens
 
 ## 📦 Pretrained Checkpoint
 
-A trained checkpoint (~1.5 GB, 19K steps on 10B FineWeb-Edu tokens) is available on Hugging Face:
+My trained model (~1.5 GB, 19K steps on 10B FineWeb-Edu tokens) is available on Hugging Face:
 
 👉 [Download `log_model_19072.pt`](https://huggingface.co/SanjaySivaramakrishnan/log_model_17000/resolve/main/log_model_19072.pt)
 
@@ -117,8 +117,13 @@ python train.py --resume log/model_10000.pt
 
 ## 📊 Training Details
 
+Trained on a **single NVIDIA A100 GPU** for **~8.5 hours** on [Lightning.ai](https://lightning.ai/).
+
 | Parameter | Value |
 |---|---|
+| Hardware | 1× NVIDIA A100 (80 GB) |
+| Platform | Lightning.ai |
+| Training Time | ~8.5 hours |
 | Dataset | FineWeb-Edu (10B tokens) |
 | Tokenizer | GPT-2 BPE (`tiktoken`) |
 | Batch Size | 524,288 tokens (via gradient accumulation) |
