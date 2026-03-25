@@ -68,6 +68,12 @@ Input Tokens
 **Model Size:** ~124M parameters  
 **Config:** 12 layers, 12 heads, 768 embedding dim, 1024 context length
 
+## 📦 Pretrained Checkpoint
+
+A trained checkpoint (~1.5 GB, 19K steps on 10B FineWeb-Edu tokens) is available on Hugging Face:
+
+👉 [Download `log_model_19072.pt`](https://huggingface.co/SanjaySivaramakrishnan/log_model_17000/resolve/main/log_model_19072.pt)
+
 ## 🚀 Quick Start
 
 ### 1. Install Dependencies
