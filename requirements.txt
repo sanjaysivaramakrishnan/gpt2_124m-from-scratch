@@ -1,0 +1,7 @@
+torch>=2.1.0
+numpy
+tiktoken
+tqdm
+requests
+"transformers[torch]"
+

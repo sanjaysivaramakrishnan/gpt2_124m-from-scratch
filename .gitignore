@@ -1,0 +1,23 @@
+# Checkpoints & logs
+*.pt
+log/
+
+# Data
+edu_fineweb10B/
+hellaswag/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
