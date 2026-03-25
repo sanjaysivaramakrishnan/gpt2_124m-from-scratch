@@ -1,5 +1,4 @@
 # Checkpoints & logs
-*.pt
 log/
 
 # Data
