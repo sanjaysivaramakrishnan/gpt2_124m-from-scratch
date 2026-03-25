@@ -140,7 +140,3 @@ Trained on a **single NVIDIA A100 GPU** for **~8.5 hours** on [Lightning.ai](htt
 - [Andrej Karpathy's nanoGPT](https://github.com/karpathy/nanoGPT) — inspiration for this implementation
 - [HellaSwag: Can a Machine Really Finish Your Sentence?](https://arxiv.org/abs/1905.07830)
 - [FineWeb-Edu Dataset](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu)
-
-## 📜 License
-
-This project is for educational purposes.
