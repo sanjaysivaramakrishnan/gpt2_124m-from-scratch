@@ -105,7 +105,7 @@ def generate_samples(model, enc, prompts, device, max_length=50, num_samples=3, 
             xcol = torch.gather(topk_indices, -1, ix)
             xgen = torch.cat((xgen, xcol), dim=1)
 
-        print(f"\n🧾 Prompt: {prompt}\n" + "-" * 50)
+        print(f"\n Prompt: {prompt}\n" + "-" * 50)
         for i in range(num_samples):
             print(f"\nSample {i + 1}:\n{enc.decode(xgen[i].tolist())}")
 
@@ -125,7 +125,7 @@ def main():
     # 1) HellaSwag Evaluation
     print("\nRunning HellaSwag Evaluation...\n")
     accuracy, correct, total = evaluate_hellaswag(model, device)
-    print(f"\n✅ Final HellaSwag Accuracy: {accuracy:.4f} ({correct}/{total})")
+    print(f"\nFinal HellaSwag Accuracy: {accuracy:.4f} ({correct}/{total})")
 
     # 2) Text Generation
     print("\nGenerating Sample Outputs...\n")
