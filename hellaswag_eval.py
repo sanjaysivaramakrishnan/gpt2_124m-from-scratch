@@ -133,7 +133,6 @@ def main():
         "Hello, I'm a language model,",
         "Artificial Intelligence is",
         "In the future, humans will",
-        "what is Machine Learning, ",
     ]
     generate_samples(model, enc, prompts, device)
 
