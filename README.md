@@ -76,6 +76,10 @@ My trained model (~1.5 GB, 19K steps on 10B FineWeb-Edu tokens) is available on 
 
 ## 🚀 Quick Start
 
+### Note:
+
+To run my pre-trained model you would atleast need to have a gpu with 4GB VRAM or more. (Use colab T4 if you don't have a GPU)
+
 ### 1. Install Dependencies
 
 ```bash
