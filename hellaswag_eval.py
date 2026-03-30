@@ -123,9 +123,9 @@ def main():
     enc = tiktoken.get_encoding("gpt2")
 
     # 1) HellaSwag Evaluation
-    print("\nRunning HellaSwag Evaluation...\n")
-    accuracy, correct, total = evaluate_hellaswag(model, device)
-    print(f"\n Final HellaSwag Accuracy: {accuracy:.4f} ({correct}/{total})")
+    # print("\nRunning HellaSwag Evaluation...\n")
+    # accuracy, correct, total = evaluate_hellaswag(model, device)
+    # print(f"\n Final HellaSwag Accuracy: {accuracy:.4f} ({correct}/{total})")
 
     # 2) Text Generation
     print("\nGenerating Sample Outputs...\n")

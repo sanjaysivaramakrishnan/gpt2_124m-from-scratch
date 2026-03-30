@@ -72,7 +72,7 @@ Input Tokens
 
 My trained model (~1.5 GB, 19K steps on 10B FineWeb-Edu tokens) is available on Hugging Face:
 
-👉 [Download `log_model_19072.pt`](https://huggingface.co/SanjaySivaramakrishnan/log_model_17000/resolve/main/log_model_19072.pt)
+👉 [Download `log_model_19072.pt`](https://huggingface.co/SanjaySivaramakrishnan/log_model_17000/blob/main/log_model_19072.pt)
 
 ## 🚀 Quick Start
 
